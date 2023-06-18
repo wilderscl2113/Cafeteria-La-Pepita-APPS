@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F29F8D"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PopUp2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Baguette"
+        android:textColor="#000"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20sp"
+        android:src="@drawable/popup_2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panes hechos para el acompañamianto, recomendables para comer con algún vino."
+        android:textSize="20dp"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:fontFamily="times"
+        android:textColor="#000"
+        />
+</LinearLayout>

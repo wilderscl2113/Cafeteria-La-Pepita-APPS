@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#704A41"
+    android:orientation="vertical"
+    tools:context=".Especiales">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill"
+        >
+
+        <ImageButton
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:background="@color/cafesote"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:id="@+id/mesar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="monospace"
+            android:textSize="25dp"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/whiteclarito" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imgbtnC"
+            android:layout_width="250dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="-15dp"
+            android:background="@color/cafesote"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/tu" />
+
+        <ImageButton
+            android:id="@+id/imgbtnA"
+            android:layout_width="250dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/cafesote"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/cupcakes" />
+
+        <ImageButton
+            android:id="@+id/imgbtnB"
+            android:layout_width="250dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/cafesote"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/bunuelos" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "816983914910",
+    "project_id": "cafeteriapepita",
+    "storage_bucket": "cafeteriapepita.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816983914910:android:0ef71857dfe9a552fa7e8f",
+        "android_client_info": {
+          "package_name": "com.example.cafeterialapepita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816983914910-n34rm2msagiu8bc99u0hgh27thcebmfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1xhN9VWhtGT8HBkZpNcxeAWPqFPUTVzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816983914910-n34rm2msagiu8bc99u0hgh27thcebmfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
